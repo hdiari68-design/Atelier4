@@ -4,6 +4,7 @@ final String numeroCompte;
 
 Compte(this.numeroCompte, [double soldeInitial = 0.0]) {
     _solde = soldeInitial;
+}
 
 String get solde => _solde.toStringAsFixed(2) + ' \$';
 
@@ -15,4 +16,11 @@ void depot(double montant) {
       print('Montant invalide : le dépôt doit être positif.');
     }
   }
+}
+void main() {
+  var compte = Compte('578998400', 10.0);
+  print('Solde initial : ${compte.solde}');
+  compte.depot(111.25);
+  print('Solde après dépôt : ${compte.solde}');
+  compte.depot(-270); 
 }
