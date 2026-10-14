@@ -27,5 +27,7 @@ class BaseDeDonnees implements Connectable {
 void main() {
   var api = ServeurAPI();
   var bd  = BaseDeDonnees();
+
+var services = <Connectable>[api, bd];
 }
 
