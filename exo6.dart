@@ -4,6 +4,8 @@ abstract class Connectable {
 }
 
 class ServeurAPI implements Connectable {
-  
+   void connecter(String utilisateur) {
+    print('ServeurAPI : Connexion établie pour $utilisateur.');
+
 }
   
