@@ -25,5 +25,10 @@ class Film extends Media {
 
 void main() {
   var catalogue = <Media>[
+    Livre('Le retour au pays', 'Nelson mandela'),
+    Film('iron man', 52),
+    Livre('histoire Obama', '20'),
+    Film('Interstellar', 169),
+  ];
    
 }
