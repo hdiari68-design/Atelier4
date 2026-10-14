@@ -11,3 +11,6 @@ class Livre {
     print('Titre: $titre, Auteur: $auteur, Pages: $pages');
   }
 }
+static void afficherTotal() {
+    print('Total de livres créés: $totalLivres');
+  }
