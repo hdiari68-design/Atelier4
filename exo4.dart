@@ -5,5 +5,8 @@ class Media {
   void afficherType() {
     print('Ceci est un média générique.');
   }
+}
+class Livre extends Media {
+  
 
 }
