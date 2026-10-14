@@ -20,4 +20,6 @@ class Rectangle extends Forme {
 
   @override
   double calculerAire() => longueur * largeur;
+  var c = Cercle(3);
+  var r = Rectangle(4, 5);
 }
