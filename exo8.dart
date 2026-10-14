@@ -5,4 +5,9 @@ class Livre {
   Livre(this.titre, this.auteur) {
     totalLivres += 1;
   }
+  int get pages => _pages;
+
+  void afficherInfos() {
+    print('Titre: $titre, Auteur: $auteur, Pages: $pages');
+  }
 }
