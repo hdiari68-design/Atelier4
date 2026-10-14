@@ -17,4 +17,7 @@ class Cercle extends Forme {
 class Rectangle extends Forme {
   final double longueur, largeur;
   Rectangle(this.longueur, this.largeur);
+
+  @override
+  double calculerAire() => longueur * largeur;
 }
