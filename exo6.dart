@@ -29,5 +29,9 @@ void main() {
   var bd  = BaseDeDonnees();
 
 var services = <Connectable>[api, bd];
+for (var s in services) {
+    s.connecter('mamadou');
+    s.deconnecter();
+}
 }
 
