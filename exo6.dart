@@ -8,4 +8,7 @@ class ServeurAPI implements Connectable {
     print('ServeurAPI : Connexion établie pour $utilisateur.');
 
 }
-  
+  void deconnecter() {
+    print('ServeurAPI : Déconnexion réussie.');
+  }
+}
