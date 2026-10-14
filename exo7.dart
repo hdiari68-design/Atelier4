@@ -1,2 +1,4 @@
 class Tache {
+  String description;
 }
+  
