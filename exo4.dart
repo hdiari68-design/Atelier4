@@ -30,5 +30,9 @@ void main() {
     Livre('histoire Obama', '20'),
     Film('Interstellar', 169),
   ];
+
+  for (var m in catalogue) {
+    m.afficherType();
+  }
    
 }
